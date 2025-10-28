@@ -1,16 +1,23 @@
-# React + Vite
+A modern, responsive developer portfolio built with React, Tailwind CSS, and Framer Motion. This portfolio showcases my frontend development projects, technical skills, and experience — with smooth animations, elegant design, and a functional contact form powered by EmailJS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
 
-Currently, two official plugins are available:
+🎨 Modern UI/UX – Minimalist design with soft gradients, glassmorphism, and fluid transitions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚡ Built with React + Vite – Fast, scalable, and easy to maintain.
 
-## React Compiler
+🪄 Smooth Animations – Powered by Framer Motion for subtle and professional motion effects.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📱 Fully Responsive – Optimized for mobile, tablet, and desktop screens.
 
-## Expanding the ESLint configuration
+📬 Working Contact Form – Integrated with EmailJS for real-time message delivery.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌙 Accessible Design – Clean typography, proper contrasts, and keyboard navigation support.
+
+🧩 Tech Stack
+Category	Technologies
+Frontend	React, Vite, Tailwind CSS
+Animations	Framer Motion
+Icons	Lucide React
+Email Integration	EmailJS
+Version Control	Git + GitHub
