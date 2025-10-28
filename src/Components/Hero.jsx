@@ -3,7 +3,7 @@ import profileImg from '../assets/image.png';
 
 function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center px-4">
+    <section id="home" className="min-h-screen flex items-center justify-center py-4 px-4">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
