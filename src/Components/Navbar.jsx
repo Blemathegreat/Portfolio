@@ -17,7 +17,7 @@ function Navbar() {
       animate={{ y: 0 }}
       className="fixed w-full z-50 glass"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 md:mb-[80px]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-2 md:mb-8">
         <div className="flex items-center justify-between h-16">
           <motion.div
             whileHover={{ scale: 1.1 }}
