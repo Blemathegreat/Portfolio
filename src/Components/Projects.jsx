@@ -4,8 +4,25 @@ import neowear from '../assets/neowears.jpg';
 import insider from '../assets/insider.jpg';
 import viaggio from '../assets/viaggio.jpg';
 import recipe from '../assets/recipe.jpg';
+import flowva from '../assets/flowva.png';
+import relixcore from '../assets/relixcore.png';
 
 const PROJECTS = [
+   {
+  title: 'Travora',
+  description: {
+    heading: 'A full-featured ambassador and admin platform built solo from the ground up.',
+    points: [
+      'Architected a scalable React + Vite frontend supporting both a public marketing site and a private dashboard experience for ambassadors and admins.',
+      'Solved complex role-based navigation by building separate dashboard flows for ambassadors and admins, each with dedicated panels for consultations, blog posts, tickets, FAQs, testimonials, and inbox messages.',
+      'Engineered a Blog system powered by React Context, eliminating the need for a backend by managing state and content distribution entirely on the client side.',
+      'Integrated react-toastify for real-time user feedback, improving UX across form submissions, booking confirmations, and referral activities.',
+    ]
+  },
+  image: viaggio, 
+  github: 'https://github.com/Blemathegreat/Travora-Travel-Management-Platform-.git', 
+  demo: 'https://travora-travel-management-platform-three.vercel.app/' 
+},
   {
     title: 'NeoWears',
     description: {
@@ -21,6 +38,21 @@ const PROJECTS = [
     github: 'https://github.com/Blemathegreat/Neowears.git',
     demo: 'https://neowears.vercel.app/'
   },
+   {
+  title: 'Flowva Rewards Hub',
+  description: {
+    heading: 'A gamified rewards and referral dashboard built to drive user engagement and retention.',
+    points: [
+      'Engineered a points and rewards system that tracks user progress toward gift card milestones, solving the challenge of keeping users consistently engaged with the platform.',
+      'Built a daily streak check-in feature with a weekly visual tracker, encouraging habitual return visits and awarding points automatically on each login.',
+      'Designed a referral system that generates personal referral links, tracks referral counts and points earned, and incentivizes users to grow the platform organically.',
+      'Implemented a Top Tool Spotlight section that surfaces featured third-party tools with sign-up CTAs, creating a monetization touchpoint within the rewards experience.',
+    ]
+  },
+  image: flowva, 
+  github: 'https://github.com/Blemathegreat/Flowva.git', 
+  demo: 'https://flowva-kaq2wywql-blemathegreats-projects.vercel.app/' 
+},
   {
     title: 'Go-Net',
     description: {
@@ -37,35 +69,20 @@ const PROJECTS = [
     demo: 'https://go-net-tau.vercel.app/'
   },
   {
-    title: 'Viaggio Abroad',
-    description: {
-      heading: 'A collaborative project for a Ghana-based travel and study-abroad consultancy.',
-      points: [
-        'Developed the client dashboard UI featuring Manage Booking and Chatroom components for real-time interaction.',
-        'Enabled users to upload travel documents and chat directly with administrators in a secure environment.',
-        'Worked with designers and backend developers to ensure smooth data flow and responsive design.',
-        'Contributed to a successful launch with enhanced user satisfaction and improved customer communication.'
-      ]
-    },
-    image: viaggio,
-    github: 'https://github.com/viaggio-abroad/clientPortal.git',
-    demo: 'https://viaggiotest.waystudio.org/'
+  title: 'Relixcore Academy',
+  description: {
+    heading: 'A landing page built for an ed-tech organization empowering Nigerian graduates and NYSC corps members.',
+    points: [
+      'Designed and developed a dark-themed, visually striking landing page that clearly communicates the platform\'s value to two distinct user segments — General Applicants and NYSC Corps Members.',
+      'Solved the challenge of serving a dual audience by structuring the UI into separate user-path cards, guiding each visitor to the program most relevant to their background.',
+      'Built a fully responsive layout optimized for Nigerian youth demographics, ensuring accessibility across low-end devices and varying screen sizes.',
+      'Translated the organization\'s brand identity into a modern, professional web presence that positions Relixcore Academy as a credible and trustworthy institution.',
+    ]
   },
-  {
-    title: 'Recipe-Lab',
-    description: {
-      heading: 'An interactive AI web app that creates recipes based on ingredients users already have.',
-      points: [
-        'Built with React, TypeScript, and OpenAI API integration for dynamic recipe generation.',
-        'Developed an intuitive interface where users can input available ingredients and receive personalized recipes.',
-        'Implemented smart ingredient suggestions and responsive layouts for all devices.',
-        'Demonstrates strong skills in API integration, state management, and real-time data handling.'
-      ]
-    },
-    image: recipe,
-    github: 'https://github.com/Blemathegreat/Recipe-Lab.git',
-    demo: 'https://recipe-lab-psi.vercel.app/'
-  }
+  image: relixcore,  
+  demo: 'https://core-nysc.web.app/' 
+},
+
 ];
 
 export default function Projects() {
