@@ -5,9 +5,28 @@ import insider from '../assets/insider.jpg';
 import viaggio from '../assets/viaggio.jpg';
 import recipe from '../assets/recipe.jpg';
 import flowva from '../assets/flowva.png';
+import artisanhub from '../assets/artisanhero.png';
 import relixcore from '../assets/relixcore.png';
 
 const PROJECTS = [
+
+  {
+  title: 'ArtisanHub',
+  description: {
+    heading: 'A modern marketplace platform connecting customers with skilled artisans through seamless discovery, onboarding, and profile management.',
+    points: [
+      'Developed a scalable React + Vite application that enables users to discover, search, and connect with artisans across multiple service categories through an intuitive marketplace interface.',
+      'Engineered a comprehensive multi-step artisan onboarding system using React Hook Form and Zod, featuring real-time validation, progress tracking, image uploads, and professional form workflows.',
+      'Built dynamic search, filtering, and sorting functionality, allowing users to efficiently find artisans based on skills, ratings, availability, and service categories.',
+      'Designed responsive artisan profile pages, dashboard layouts, and reusable UI components, ensuring a consistent experience across desktop, tablet, and mobile devices.',
+      'Implemented portfolio management features that allow artisans to showcase completed projects, helping customers evaluate expertise and make informed hiring decisions.',
+      'Applied modern React development practices including component composition, custom hooks, state management, and clean architecture to create a maintainable and scalable codebase.'
+    ]
+  },
+  image: artisanhub,
+  github: 'https://github.com/Blemathegreat/Artisanhub.git',
+  demo: 'https://artisanhub-ozac.vercel.app/'
+},
    {
   title: 'Travora',
   description: {
