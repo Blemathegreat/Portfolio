@@ -50,7 +50,7 @@ function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
         >
-          Junior Full-Stack Developer
+          Frontend Engineer
         </motion.h2>
         
         {/* Description */}
